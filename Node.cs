@@ -14,6 +14,7 @@ namespace Day14LinkedList
         public Node(int data)
         {
             this.data = data;
+            this.next = null;
         }
     }
 }
