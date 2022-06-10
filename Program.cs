@@ -2,6 +2,8 @@
 {
    public class Program
     {
+        private static readonly Node PopLast;
+
         public static void Main(string[]args)
         {
             Console.WriteLine("LinkedList Problem");
@@ -23,11 +25,19 @@
             //list.Display();
 
             //UC5
+            //list.Add(56);
+            //list.Add(30);
+            //list.Add(70);
+            //list.Display();
+            //list.Pop();
+            //list.Display();
+
+            //UC6
             list.Add(56);
             list.Add(30);
             list.Add(70);
             list.Display();
-            list.Pop();
+            list.PopLast(PopLast);
             list.Display();
 
         }
