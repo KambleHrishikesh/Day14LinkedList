@@ -129,5 +129,8 @@ namespace Day14LinkedList
             Console.WriteLine("{0} is not a Linked List Node", value);
             return 0;
         }
+
+        
+        
     }
 }
