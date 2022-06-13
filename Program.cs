@@ -33,12 +33,20 @@
             //list.Display();
 
             //UC6
+            //list.Add(56);
+            //list.Add(30);
+            //list.Add(70);
+            //list.Display();
+            //list.PopLast(PopLast);
+            //list.Display();
+
+            //UC7
             list.Add(56);
             list.Add(30);
             list.Add(70);
             list.Display();
-            list.PopLast(PopLast);
-            list.Display();
+            list.SearchNode(30);
+            
 
         }
     }

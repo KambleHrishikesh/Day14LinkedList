@@ -113,5 +113,21 @@ namespace Day14LinkedList
             Console.WriteLine("node deleted at Last position is " + PopLast);
             return popLast;
         }
+
+        public int SearchNode(int value) //find node with value 30
+        {
+            Node temp = this.head;
+            while (temp != null)
+            {
+                if (temp.data == value)
+                {
+                    Console.WriteLine("\n the node is found : " + value);
+                    return value;
+                }
+                temp = temp.next;
+            }
+            Console.WriteLine("{0} is not a Linked List Node", value);
+            return 0;
+        }
     }
 }
